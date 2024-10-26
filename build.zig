@@ -13,7 +13,7 @@ pub fn build(b: *std.Build) void {
     };
 
     const exe = b.addExecutable(.{
-        .name = "jzon",
+        .name = "jcon",
         .target = target,
         .optimize = optimize,
     });
